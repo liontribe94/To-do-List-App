@@ -51,7 +51,7 @@ function ZooSimulator() {
   const getBotResponse = (message) => {
     const lowerMessage = message.toLowerCase();
     if (lowerMessage.includes('zoo')) {
-      return 'I see you love animals! Do you want to add a new animal to the zoo?';
+      return 'I see you love animals! hii Do you want to add a new animal to the zoo?';
     } else if (lowerMessage.includes('animal')) {
       return 'Are you interested in any particular animal? I can help you add it!';
     } else {
@@ -73,7 +73,7 @@ function ZooSimulator() {
               className="flex justify-between items-center p-4 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition-all"
             >
               <span className="text-lg font-semibold text-gray-800">{animal.name} ({animal.species})</span>
-              <span className="text-gray-500">{animal.age} years old</span>
+              <span className="text-gray-500">{animal.age}1 years old</span>
               <button
                 onClick={() => removeAnimal(index)}
                 className="text-red-500 hover:text-red-700 transition-all"
